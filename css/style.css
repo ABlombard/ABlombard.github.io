@@ -1,3 +1,21 @@
+/* Custom */
+.warning {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 3px solid red;
+  padding: 1rem;
+  color: black;
+  font-size: 18px;
+}
+@media (max-width: 991.98px) {
+  .warning {
+    width: 90%;
+  }
+}
+
 /* Base */
 .font-size-10 {
   font-size: 10px; }
